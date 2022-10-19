@@ -7,6 +7,7 @@
 
 body{
     margin: 0;
+    background-color: rgb(238, 217, 245);
 }
 
 /* -------------------------------------------FOMATAÇÃO DE TITULOS DAS DIVS-------------------------------------------- */
@@ -38,10 +39,13 @@ h2{
 .pcds{
     width: 300px;
     height: 420px;
-    background-color: rgb(255, 254, 254);
     position: absolute;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
     margin-top: 30px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 .pcd1{

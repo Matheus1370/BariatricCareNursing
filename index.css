@@ -155,6 +155,8 @@ h2{
 
 /* LISTA DE VALORES */
 #lista{
+    width: 150px;
+    list-style: none;
     font-family: 'Sacred';
     font-size: 18px;
     text-align: left;

@@ -1,19 +1,19 @@
-@font-face {
-    font-family: 'Sacred';
-    src: url('font/Million Harmony.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 body{
-    margin: 0;
-    background-color: rgb(238, 217, 245);
+    margin: 0;        
+    background: linear-gradient(to bottom, rgb(229, 191, 248),rgb(234, 206, 248),rgb(236, 219, 245));
 }
 
 /* -------------------------------------------FOMATAÇÃO DE TITULOS DAS DIVS-------------------------------------------- */
 h2{
-    font-size: 45px;
-    font-family: 'Sacred';
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+h2>a{
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .roxo{
@@ -41,9 +41,9 @@ h2{
     height: 420px;
     position: absolute;
     margin-top: 30px;
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.55);
+    backdrop-filter: blur(13px) saturate(179%);
+    -webkit-backdrop-filter: blur(13px) saturate(179%);
+    background-image: linear-gradient(to bottom, #631997bd, #8235b9bd,#ab53eaf1);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -99,11 +99,11 @@ h2{
 #missaovalor{
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 450px;
     margin-top: 0px;
     text-align: center;
     display: flex;
-    background-color: rgba(70, 0, 88, 0.503);
+    background-image: linear-gradient(90deg, #6a3093, #a044ff);
 }
 
 /* LADO MISSÃO */
@@ -133,7 +133,8 @@ h2{
     margin-left: 50%;
     transform: translateX(-50%);
     font-size: 18px;
-    font-family: 'Sacred';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(208, 214, 220);
 }
 
 /* LINHAS DIVISÓRIAS */
@@ -157,9 +158,10 @@ h2{
 #lista{
     width: 150px;
     list-style: none;
-    font-family: 'Sacred';
-    font-size: 18px;
-    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(208, 214, 220);
     position: absolute;
     margin-top: 50px;
     margin-left: 50%;
@@ -175,6 +177,9 @@ h2{
     text-align: center;
 }
 
+.txtquem{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /* -----------------------------------------------------FIM QUEM SOMOS---------------------------------------------------*/
 
 /* -----------------------------------------------------------EQUIPE------------------------------------------------------------- */
@@ -183,7 +188,7 @@ h2{
     width: 100%;
     height: 1000px;
     text-align: center;
-    background-color: rgba(70, 0, 88, 0.503);
+    background-image: linear-gradient(90deg, #6a3093, #a044ff);
 }
 
 /* TITULO DIV EQUIPE */
@@ -199,7 +204,7 @@ h2{
     margin-left: 50%;
     transform: translateX(-50%);
     font-size: 20px;
-    font-family: 'Sacred';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* CARDS DA EQUIPE */

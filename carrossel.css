@@ -41,28 +41,28 @@
 }
 
 .parte1{
-    background: linear-gradient(to right,#6d209d,#631e7a);
+    background-image: linear-gradient(to bottom, #631997fa, #8235b9,#ab53ea);
     border-right: 1px rgba(0, 0, 0, 0.527) solid;
     transition: 1s;
 }
 .parte2{
-    background: linear-gradient(to right,#631e7a,#4b1b57);
+    background-image: linear-gradient(to bottom, #631997fa, #8235b9,#ab53ea);
     border-right: 1px rgba(0, 0, 0, 0.557) solid;
     transition: 1s;
 }
 .parte3{
-    background-color: #4b1b57;
+    background-image: linear-gradient(to bottom, #631997fa, #8235b9,#ab53ea);
     transition: 1s;
 }
 
 .parte1:hover{
-    background: linear-gradient(to right,#77389e,#693d77);
+    background-image: linear-gradient(to bottom, #6c3593fa, #8f52ba,#bc7de9);
 }
 .parte2:hover{
-    background: linear-gradient(to right,#693d77,#49345b);
+    background-image: linear-gradient(to bottom, #6c3593fa, #8f52ba,#bc7de9);
 }
 .parte3:hover{
-    background-color: #49345b;
+    background-image: linear-gradient(to bottom, #6c3593fa, #8f52ba,#bc7de9);
 }
 
 #radio1:checked ~ .first{
@@ -99,19 +99,16 @@
 #radio1:checked ~ .navigation-auto .auto-btn1{
     opacity: 1;
     color: rgb(118, 3, 120);
-    text-shadow: 0 0 2px rgb(39, 1, 39);
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
     opacity: 1;
     color: rgb(118, 3, 120);
-    text-shadow: 0 0 2px rgb(39, 1, 39);
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
     opacity: 1;
     color: rgb(118, 3, 120);
-    text-shadow: 0 0 2px rgb(39, 1, 39);
 }
 
 .auto-btn1{

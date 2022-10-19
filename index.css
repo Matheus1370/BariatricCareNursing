@@ -17,14 +17,10 @@ h2{
 
 .roxo{
     color: rgb(103, 0, 199);
-    text-shadow: 0 0 1px black,
-                 0 0 2px black;
 }
 
 .branco{
-    color: rgb(1, 0, 2);
-    text-shadow: 0 0 1px rgb(162, 0, 255),
-                 0 0 2px rgb(162, 0, 255);
+    color: rgb(255, 255, 255);
 }
 /* -------------------------------------------------FIM DA FORMATAÇÃO------------------------------------------------------ */
 
@@ -142,7 +138,7 @@ h2{
     height: 360px;
     margin-top: 20px;
     position: absolute;
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
 }
 
 .linha1{

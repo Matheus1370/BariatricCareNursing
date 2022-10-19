@@ -250,6 +250,10 @@ footer{
         height: 41px;
     }
 
+    .navigation-auto{
+        margin-top: 80px;
+    }
+
     /* DIV DO WHATSAAP */
     .whatsapp{
         position: absolute;

@@ -1,0 +1,356 @@
+@font-face {
+    font-family: 'Sacred';
+    src: url('font/Million Harmony.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+}
+
+/* -------------------------------------------FOMATAÇÃO DE TITULOS DAS DIVS-------------------------------------------- */
+h2{
+    font-size: 45px;
+    font-family: 'Sacred';
+}
+
+.roxo{
+    color: rgb(103, 0, 199);
+    text-shadow: 0 0 1px black,
+                 0 0 2px black;
+}
+
+.branco{
+    color: rgb(1, 0, 2);
+    text-shadow: 0 0 1px rgb(162, 0, 255),
+                 0 0 2px rgb(162, 0, 255);
+}
+/* -------------------------------------------------FIM DA FORMATAÇÃO------------------------------------------------------ */
+
+
+/* -----------------------------------------------------PROCEDIMENTOS---------------------------------------------- */
+#procedimento{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* CARDS DO PROCEDIMENTO*/
+.pcds{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 254, 254);
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+    margin-top: 50px;
+}
+
+.pcd1{
+    margin-left: 15.5%;
+    transform: translateX(-50%);
+}
+
+.pcd2{
+    margin-left: 38.5%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.pcd3{
+    margin-left: 61.5%;
+    transform: translateX(-50%);
+}
+
+.pcd4{
+    margin-left: 84.5%;
+    transform: translateX(-50%);
+}
+
+/* TITULO DOS CARDS */
+.ttlpcd{
+    font-family: 'Sacred', 'cursive';
+    font-size: 20px;
+    z-index: 90;
+}
+
+/* TEXTOS DOS CARDS */
+.txtpcd{
+    width: 250px;
+    margin-top: 170px;
+    z-index: 100;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+/* IMAGENS DOS CARDS */
+.imgpcd{
+    position: absolute;
+    margin-left: -0%;
+    transform: translateX(-50%);
+    margin-top: -20px;
+}
+/* -----------------------------------------------FIM DOS PROCEDIMENTO-------------------------------------------------------- */
+
+/* ----------------------------------------------------MISSÃO E VALOR------------------------------------------------ */
+#missaovalor{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    background-color: rgba(70, 0, 88, 0.503);
+}
+
+/* LADO MISSÃO */
+#missao{
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* LADO VALOR */
+#valor{
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    margin-left: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+/* TEXTO DA MISSÃO */
+.txtmissao{
+    width: 400px;
+    margin-top: 80px;
+    z-index: 100;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-family: 'Sacred';
+}
+
+/* LINHAS DIVISÓRIAS */
+.linhas{
+    width: 1px;
+    height: 360px;
+    margin-top: 20px;
+    position: absolute;
+    background-color: #000;
+}
+
+.linha1{
+    margin-left: 100%;
+}
+
+.linha2{
+    margin-left: 0%;
+}
+
+/* LISTA DE VALORES */
+#lista{
+    font-family: 'Sacred';
+    font-size: 18px;
+    text-align: left;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+/* -------------------------------------------------FIM MISSÃO E VALOR----------------------------------------------------------------------- */
+
+/* -------------------------------------------------------QUEM SOMOS------------------------------------------------------------------------- */
+#quem{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+/* -----------------------------------------------------FIM QUEM SOMOS---------------------------------------------------*/
+
+/* -----------------------------------------------------------EQUIPE------------------------------------------------------------- */
+#equipe{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    background-color: rgba(70, 0, 88, 0.503);
+}
+
+/* TITULO DIV EQUIPE */
+.equipetitulo{
+    margin-top: 30px;
+}
+
+/* INFORMAÇÕES DA EQUIPE */
+.txtquem{
+    width: 1145px;
+    margin-top: 40px;
+    z-index: 100;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-family: 'Sacred';
+}
+
+/* CARDS DA EQUIPE */
+.cardequipe{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(246, 209, 255, 0.825);
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.carde1{
+    margin-left: 17%;
+    transform: translateX(-50%);
+}
+
+.carde2{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.carde3{
+    margin-left: 82%;
+    transform: translateX(-50%);
+}
+
+.carde4{
+    margin-top: 300px;
+    margin-left: 17%;
+    transform: translateX(-50%);
+}
+
+.carde5{
+    margin-top: 300px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.carde6{
+    margin-top: 300px;
+    margin-left: 82%;
+    transform: translateX(-50%);
+}
+
+.carde7{
+    margin-top: 560px;
+    margin-left: 17%;
+    transform: translateX(-50%);
+}
+
+/* FOTO DA EQUIPE */
+.ftequipe{
+    position: absolute;
+    margin-top: .2px;
+    margin-left: -50%;
+}
+
+/* NOMES */
+.nome1{
+    margin-top: 30px;
+}
+
+/* INFORMAÇÕES DOS CARDS */
+.dados1{
+    margin-top: 30px;
+    margin-left: 50%;
+    text-align: left;
+    line-height: 30px;
+}
+
+.dados2{
+    margin-top: 30px;
+    margin-left: 43%;
+    text-align: left;
+    line-height: 30px;
+}
+
+.dados3{
+    margin-top: 30px;
+    margin-left: 43%;
+    text-align: left;
+    line-height: 30px;
+}
+
+.dados4{
+    margin-top: 30px;
+    margin-left: 45%;
+    text-align: left;
+    line-height: 30px;
+}
+/*--------------------------------------------------------FIM EQUIPE----------------------------------------------------------------------- */
+
+/*------------------------------------------------------ FALE CONOSCO --------------------------------------------------------------------*/
+#fale{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 00px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* DIV DO WHATSAAP */
+.whatsapp{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(19, 230, 36), rgb(39, 225, 54),rgb(92, 220, 101)) ;
+    margin-left: 25px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    margin-top: 45px;
+}
+
+/* IMAGEM DO WHATSAAP */
+.imgwhatsapp{
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+/* DIV DO TELEGRAM */
+.telegram{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin-left: 25px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+/* IMAGEM DO TELEGRAM*/
+.imgtelegram{
+    width: 50px;
+    height: 50px;
+}
+
+/* BOTÃO ENVIAR PARA O EMAIL*/
+#btncvs{
+    width: 60px;
+    height: 40px;
+    text-align: left;
+    font-size: 15px;
+    background: linear-gradient(to bottom,rgba(255, 0, 0, 0.722),rgba(252, 37, 37, 0.644),rgba(255, 87, 87, 0.683)) ;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+}

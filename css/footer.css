@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #0e0112;
+    color: #d9d9d9;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+.box .content:after{
+    position: absolute;
+    content: '';
+    width: 15%;
+    height: 2px;
+    background: #ab20f1;
+    top: -10px;
+}
+.box .content:before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+    top: -10px;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: #ab20f1;
+}
+.left .content p{
+    text-align: justify;
+}
+.center .content .fas{
+    font-size: 23px;
+    background: #1a1a1a;
+    width: 45px;
+    height: 45px ;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.center .content .fas:hover{
+    background: #ab20f1;
+}
+.center .content .text{
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.center .content .phone{
+    margin: 10px 0;
+}
+.center .content .msg{
+    margin-top: 10px;
+}
+.right form input, .right form textarea{
+    width: 100%;
+    font-size: 17px;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+}
+.right form input{
+    height: 35px;
+}
+.right form input:focus,
+.right form textarea:focus{
+    outline-color: #3498db;
+}
+.right form .text{
+    font-size: 17px;
+    margin-bottom: 2px;
+    color: #656565;
+}
+.right form .btn{
+    margin-top: 10px;
+}
+.right form .btn button{
+    height: 40px;
+    width: 100%;
+    background: #ab20f1;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+.right form .btn button:hover{
+    background: #000;
+}
+.bottom .center{
+    padding: 5px;
+    font-size: 15px;
+    background: #151515;
+    text-align: center;
+}
+.bottom .center span{
+    color: #656565;
+}
+.bottom .center a{
+    color: #ab20f1;
+    text-decoration: none;
+}
+.bottom .center a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 900px){
+    footer{
+        position: relative;
+        bottom: 0px;
+    }
+
+    .txtquem{
+        width: 400px;
+    }
+
+    #procedimento{
+        height: 2100px;
+        margin-top: -50px;
+    }
+
+    #missaovalor{
+        height: 800px;
+    }
+
+    .linhas{
+        opacity: 0;
+    }
+
+    /* LADO MISSÃO */
+    #missao{
+        border: none;
+        height: 400px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    /* LADO VALOR */
+    #valor{
+        border: none;
+        margin-top: 300px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+    }
+
+    .pcds{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .pcd2{
+        margin-top: 500px;
+    }
+    
+    .pcd3{
+        margin-top: 1000px;
+    }
+    
+    .pcd4{
+        margin-top: 1500px;
+    }
+
+    .manual-btn{
+        opacity: 0;
+    }
+
+    #equipe{
+        height: 2000px;
+    }
+
+    .cardequipe{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .carde2{
+        margin-top: 290px;
+    }
+    
+    .carde3{
+        margin-top: 530px;
+    }
+    
+    .carde4{
+        margin-top: 775px;
+    }
+    
+    .carde5{
+        margin-top: 1025px;
+    }
+    
+    .carde6{
+        margin-top: 1280px;
+    }
+    
+    .carde7{
+        margin-top: 1540px;
+    }
+
+    /* DIV DO TELEGRAM */
+    .telegram{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-left: 140px;
+        transform: translateX(-50%);
+        margin-top: .5px;
+    }
+    
+    /* IMAGEM DO TELEGRAM*/
+    .imgtelegram{
+        width: 41px;
+        height: 41px;
+    }
+
+    /* DIV DO WHATSAAP */
+    .whatsapp{
+        position: absolute;
+        margin-left: 90px;
+        transform: translateX(-50%);
+        margin-top: .5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    /* IMAGEM DO WHATSAAP */
+    .imgwhatsapp{
+        width: 23px;
+        height: 23px;
+        margin-top: 8.5px;
+        margin-left: 9px;
+    }
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-content .box{
+        margin: 5px 0;
+    }
+}

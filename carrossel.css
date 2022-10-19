@@ -38,6 +38,7 @@
     width: 250px;
     height: 240px;
     cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .parte1{
@@ -82,8 +83,10 @@
     cursor: pointer;
     transition: 1s;
     opacity: 0;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 800;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .navigation-auto{
@@ -98,17 +101,17 @@
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
     opacity: 1;
-    color: rgb(118, 3, 120);
+    color: rgb(97, 0, 157);
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
     opacity: 1;
-    color: rgb(118, 3, 120);
+    color: rgb(97, 0, 157);
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
     opacity: 1;
-    color: rgb(118, 3, 120);
+    color: rgb(97, 0, 157);
 }
 
 .auto-btn1{

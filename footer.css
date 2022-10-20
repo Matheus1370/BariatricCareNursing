@@ -145,6 +145,11 @@ footer{
         bottom: 0px;
     }
 
+    .navigation-auto div{
+        font-size: 28px;
+        font-weight: 400;
+    }
+
     .txtquem{
         width: 300px;
     }
@@ -251,11 +256,11 @@ footer{
     }
 
     .navigation-auto{
-        margin-top: 80px;
+        margin-top: 280px;
     }
 
-    .mais{
-        margin-top: 140px;
+    .menos{
+        margin-top: -40px;
     }
 
     /* DIV DO WHATSAAP */

@@ -1,3 +1,7 @@
+.filimg{
+    filter: brightness(60%);
+}
+
 .slider{
     margin: 0 auto;
     width: 100%;
@@ -89,29 +93,42 @@
     font-family: 'Bebas Neue', cursive;
 }
 
+.manualimg{
+    width: 200px;
+    height: 200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    filter: brightness(200%);
+}
+
+.pouco{
+    margin-top: 20px;
+}
+
 .navigation-auto{
     position: absolute;
     width: 100%;
     margin-top: 200px;
     align-items: center;
     justify-content: center;
+    text-shadow: 0 0 10px black;
     transition: 1.5s;
 }
 
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
     opacity: 1;
-    color: rgb(97, 0, 157);
+    color: rgb(225, 197, 255);
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
     opacity: 1;
-    color: rgb(97, 0, 157);
+    color: rgb(225, 197, 255);
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
     opacity: 1;
-    color: rgb(97, 0, 157);
+    color: rgb(225, 197, 255);
 }
 
 .auto-btn1{

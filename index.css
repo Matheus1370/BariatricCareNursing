@@ -71,18 +71,22 @@ h2>a{
 
 /* TITULO DOS CARDS */
 .ttlpcd{
-    font-family: 'Sacred', 'cursive';
-    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(182, 170, 192);
+    font-size: 25px;
     z-index: 100;
+    margin-top: 25px;
 }
 
 /* TEXTOS DOS CARDS */
 .txtpcd{
     width: 250px;
-    margin-top: 180px;
+    margin-top: 140px;
     z-index: 100;
     margin-left: 50%;
     transform: translateX(-50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(208, 214, 220);
 }
 
 /* IMAGENS DOS CARDS */
@@ -90,7 +94,7 @@ h2>a{
     position: absolute;
     margin-left: -0%;
     transform: translateX(-50%);
-    margin-top: 0px;
+    margin-top: -20px;
     z-index: 20;
 }
 /* -----------------------------------------------FIM DOS PROCEDIMENTO-------------------------------------------------------- */

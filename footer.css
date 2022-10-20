@@ -255,8 +255,17 @@ footer{
         height: 41px;
     }
 
+    .logo{
+        margin-left: -60px;
+        font-size: 15px;
+    }
+
     .navigation-auto{
         margin-top: 280px;
+    }
+
+    .nav-list{
+        margin-left: 00px;
     }
 
     .menos{

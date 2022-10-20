@@ -263,6 +263,13 @@ footer{
         margin-top: -40px;
     }
 
+    .filimg{
+        opacity: 0;
+        position: absolute;
+        width: 0;
+        height: 0;
+    }
+
     /* DIV DO WHATSAAP */
     .whatsapp{
         position: absolute;

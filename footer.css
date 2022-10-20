@@ -145,11 +145,6 @@ footer{
         bottom: 0px;
     }
 
-    .navigation-auto div{
-        font-size: 28px;
-        font-weight: 400;
-    }
-
     .txtquem{
         width: 300px;
     }
@@ -167,12 +162,27 @@ footer{
         opacity: 0;
     }
 
+    .logo{
+        font-size: 20px;
+    }
+
+    .nav-list{
+        margin-left: -60px;
+    }
+
     /* LADO MISSÃO */
     #missao{
         border: none;
         height: 400px;
         margin-left: 50%;
         transform: translateX(-50%);
+    }
+
+    .manualimg{
+        position: absolute;
+        opacity: 0;
+        width: 1px;
+        height: 1px;
     }
     
     /* LADO VALOR */
@@ -255,28 +265,12 @@ footer{
         height: 41px;
     }
 
-    .logo{
-        margin-left: -60px;
-        font-size: 15px;
-    }
-
     .navigation-auto{
-        margin-top: 280px;
+        margin-top: 80px;
     }
 
-    .nav-list{
-        margin-left: 00px;
-    }
-
-    .menos{
-        margin-top: -40px;
-    }
-
-    .filimg{
-        opacity: 0;
-        position: absolute;
-        width: 0;
-        height: 0;
+    .mais{
+        margin-top: 140px;
     }
 
     /* DIV DO WHATSAAP */
